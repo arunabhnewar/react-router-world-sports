@@ -1,0 +1,28 @@
+.banner {
+    background-image: linear-gradient(rgba(80, 79, 79, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/banner-2.jpg);
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.hero-title {
+    color: #f39c12;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.about-btn {
+    border: 0;
+    outline: 0;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.5s linear;
+    text-transform: uppercase;
+}
+.about-btn:hover {
+    background-color: #fff;
+    color: #f39c12;
+}

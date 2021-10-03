@@ -1,0 +1,22 @@
+.menubar-container {
+    background-color: #191919;
+    color: #95a5a6;
+}
+.brand-name {
+    padding-top: 5px;
+}
+.items {
+    list-style: none;
+    text-decoration: none;
+    color: #95a5a6;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.6s linear;
+    text-transform: uppercase; 
+}
+.items:hover {
+    color: #f39c12;
+}
